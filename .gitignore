@@ -1,0 +1,66 @@
+# ========================================================
+# Git Ignore for SweetPop Bakery E-Commerce
+# ========================================================
+
+# Environment and sensitive keys
+.env
+*.env.local
+
+# Academic Documents, Jobsheets, Reports & Presentations
+*.docx
+*.pdf
+*.pptx
+*.xlsx
+*.csv
+*Jobsheet*
+*jobsheet*
+*Laporan*
+*laporan*
+*Materi*
+*materi*
+*Script*
+*script*
+*Presentasi*
+*presentasi*
+*Pertemuan*
+*pertemuan*
+*Praktek*
+*praktek*
+*Praktik*
+*praktik*
+*Dedain*
+*showcase*
+
+# Bab-specific files and test dumps
+*bab*
+*Bab*
+test_db.php
+
+# Keep only schema.sql for database setup
+*.sql
+!schema.sql
+
+# Markdown reports (keep README.md only)
+*.md
+!README.md
+
+# Python scripts & scratch directories
+*.py
+scratch/
+ppt_svg/
+screenshots/
+temp_chrome/
+temp_fonts/
+temp_render_slides/
+assets_fonts/
+
+# Raw dumps and temporary text / image files
+*.txt
+page1_img_*.png
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
